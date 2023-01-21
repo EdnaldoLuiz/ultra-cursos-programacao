@@ -1,4 +1,7 @@
 .READMEimgs/*
+.READMEimgs/
+READMEimgs/*
+READMEimgs
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
