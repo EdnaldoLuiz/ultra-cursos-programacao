@@ -1,3 +1,70 @@
 body {
-  background-image: url(imgs/logo.jpg);
+  background: white;
+
+}
+
+#img img {
+  height: 200px;
+  width: 100%;
+  padding-right: 100px;
+  
+}
+
+#sec2 {
+  background: white;
+  margin: 0 150px 0 150px;
+  height: 350px;
+  padding: 0 20px 0 20px;
+}
+
+#meio {
+  background: white;
+  margin: 0 150px 0 150px;
+  height: 200px;
+  padding: 0 20px 0 20px;
+}
+
+#aneis {
+  width: 100%;
+  border: 1px solid black;
+  background-position: center;
+}
+
+#header {
+  background: white;
+  height: 200px;
+  margin: 0 150px 0 150px;
+}
+
+#cima {
+  border: 2px solid black;
+  margin: 0 150px 0 150px;
+  background: rgb(230, 190, 197);
+  margin-top: 20px;
+}
+
+#baixo {
+  border: 2px solid black;
+  margin: 0 150px 0 150px;
+  background: rgb(230, 190, 197);
+  margin-top: 20px;
+
+}
+
+.td2 {
+  padding-left: 30px;
+}
+
+#rodape {
+  padding: 15px;
+  background: rgb(63, 59, 59);
+  height: 150px;
+  left: 0;
+  color: white;
+  margin: 0 150px 0 150px;
+
+}
+
+#rodape strong {
+  color: yellow;
 }
