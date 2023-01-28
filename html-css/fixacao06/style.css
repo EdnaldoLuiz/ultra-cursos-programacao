@@ -1,70 +1,129 @@
 body {
-  background: white;
-
+  background: #FFE8EF;
 }
 
-#img img {
-  height: 200px;
-  width: 100%;
-  padding-right: 100px;
+/* HEADER DA PAGINA */
+
+.section-cima {
+  width: 1000px;
+  height: 1000px;
+  background: #FFFFFF;
+  margin: auto;
+}
+
+#div-cima {
+  float: left;
+  margin: 20px;
+}
+
+#div-cima img {
+  margin: 5px;
+}
+
+#div-cima2 {
+  float: left;
+  width: 100px;
+  text-align: center;
+  margin: 60px 5px 0 0;
+}
+
+#div-cima2 a {
+  font: normal 14px arial;
+  text-decoration: none;
+  color: #000;
+}
+
+/* SEGUNDA PARTE DA PAGINA */
+
+#figure-meio {
+  clear: both;
+  margin: 0;
   
 }
 
-#sec2 {
-  background: white;
-  margin: 0 150px 0 150px;
-  height: 350px;
-  padding: 0 20px 0 20px;
+.paragrafo-rosa {
+  font: normal 16px arial;
+  color: #CC3333;
+  text-align: center;
 }
 
-#meio {
-  background: white;
-  margin: 0 150px 0 150px;
-  height: 200px;
-  padding: 0 20px 0 20px;
+.div-cima3 {
+  width: 250px;
+  height: 80px;
+  margin: 10px 10px 10px 30px;
+  float: left;
 }
 
-#aneis {
-  width: 100%;
-  border: 1px solid black;
-  background-position: center;
+.div-cima3 figure {
+  margin: 0 15px 0 0;
+  height: 70px; 
+  float:left;
 }
 
-#header {
-  background: white;
-  height: 200px;
-  margin: 0 150px 0 150px;
+.div-cima3 p {
+  margin: 0;
+  height: 70px;
+  font: normal 12px arial;
 }
 
-#cima {
-  border: 2px solid black;
-  margin: 0 150px 0 150px;
-  background: rgb(230, 190, 197);
-  margin-top: 20px;
+#joia-logo {
+  float: left;
+  margin-top: 0px;
+  margin-left: 25px;
 }
 
-#baixo {
-  border: 2px solid black;
-  margin: 0 150px 0 150px;
-  background: rgb(230, 190, 197);
-  margin-top: 20px;
-
+#joia-logo-p {
+  float: left;
+  font: normal 16px arial;
+  color: #CC3333;
+  text-align: center;
 }
 
-.td2 {
-  padding-left: 30px;
+#div-cima4 {
+  clear: both; 
+  float: left"
 }
 
-#rodape {
-  padding: 15px;
-  background: rgb(63, 59, 59);
-  height: 150px;
-  left: 0;
-  color: white;
-  margin: 0 150px 0 150px;
-
+#div-cima4 figure {
+  margin: 0 30px;
+  float: left;
 }
 
-#rodape strong {
-  color: yellow;
+#div-cima4 figure p {
+  float: left;
+  width: 212px;
+  font: normal 12px arial;
+  color:#CC3333;
+  text-align: center;
+}
+
+/* RODAPE */
+
+#footer {
+  clear: both;
+  background: #000;
+  width: 1000px;
+  height: 180px;
+}
+
+#footer article {
+  width: 200px;
+  height: 170px;
+  float: left;
+  margin-left: 15px;
+}
+
+#footer article p {
+  font: normal 13px arial color yellow;
+}
+
+#ultimo-article {
+  width: 400px;
+  height: 60px;
+  float: left;
+  margin-top: 50px;
+}
+
+#ultimo-article img {
+  margin: 0 15px;
 }
