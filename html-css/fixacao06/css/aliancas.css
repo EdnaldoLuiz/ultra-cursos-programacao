@@ -1,0 +1,31 @@
+#text-area {
+    height: 30px;
+    width: 200px; 
+    margin: 20px -40px 20px;
+  }
+
+  #busca {
+    background-color: #CC3333;
+    width: 70px ;
+    height: 34px; 
+    margin-left: 50px;
+  }
+
+  #buttons {
+    /* border: 2px solid red; */
+    width: 68%;
+    height: 5%;
+    margin-top: 20px;
+    margin-left: 280px;
+    margin-right: 450px;
+    margin-bottom: 10px;
+  }
+
+  #buttons table tr td button {
+    width: 160px;
+    height: 45px;
+    margin-left: 5px;
+    background-color: white;
+    border: 1px solid black;
+    color: #CC3333;
+  }

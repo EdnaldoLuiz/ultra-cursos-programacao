@@ -1,0 +1,29 @@
+#text-area {
+    height: 30px;
+    width: 200px; 
+    margin: 20px -40px 20px;
+  }
+
+  #buttons {
+    width: 68%;
+    height: 5%;
+    margin-top: -40px;
+    margin-left: 280px;
+    margin-right: 450px;
+    margin-bottom: 10px;
+    
+  }
+
+  #buttons table tr td button {
+    width: 160px;
+    height: 45px;
+    margin-left: 5px;
+    color: #CC3333;
+    background-color: white;
+    border: 1px solid black;
+  }
+
+  .desc-p {
+    font-size: 14px;
+    padding-left: 20px;
+  }
