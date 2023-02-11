@@ -1,37 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: 0;
+    text-decoration: none;
+}
+
+body {
+    background: rgb(99, 93, 99);
+}
 
 #header img {
-  width: 100%;
-}
-body {
-  background: rgb(63, 57, 66);
-}
-#total {
-  background: white;
-  width: 75%;
-  margin: 0px auto;
-}
-.main-divs {
-  padding-top: 15px;
-  display: inline-block;
-}
-#text-div {
-  padding-top: 15px;
-  display: inline-block;
-}
-.main-divs img {
-  width: 590px;
-  margin: 10px 20px 10px 20px;
-}
-#text-div p {
-  margin-left: 20px;
-    font-size: 22px;
-    padding-bottom: 8px;
-}
-#footer {
-  width: 75%;
-  margin: 0px auto;
-}
-#footer img {
-  height: 253px;
+    width: 100%;
 }
 
+#main {
+    background: white;
+    height: 100%;
+    width: 73%;
+    margin: 0 auto;
+}
+
+/* ---------------------------------------------------- */
+
+#a {
+    display: flex;
+}
+
+.div-esquerda {
+    width: max-content;
+}
+.imgs {
+    padding: 20px 20px 0 20px;
+}
+
+#main #a .div-esquerda figcaption {
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+#main #a .div-esquerda p {
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+
+
+.div-direita {
+    width: max-content;
+}
+.imgs {
+    padding: 20px 20px 0 20px;
+}
+
+#main #a .div-direita figcaption {
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+#main #a .div-direita p {
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+/* ---------------------------------------------------- */
+
+
+#b {
+    display: flex;
+}
+
+#main #b .div-esquerda figcaption {
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+#main #b .div-esquerda p {
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+
+#main #b .div-direita figcaption {
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+#main #b .div-direita p {
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+#tabela tr td {
+    padding: 0px 35px 0 35px;
+}
+
+
+
+
+#c {
+    display: flex;
+}
+
+
+#last {
+    width: min-content;
+    display: flex;
+    margin: 0 auto;
+}
+
+#last img {
+    padding: 10px 10px 10px 10px;
+    
+}
+
+
+#footer img {
+    width: 73%;
+    margin: 0 auto;
+    display: block;
+}
