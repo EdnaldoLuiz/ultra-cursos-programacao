@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background: url(/fixacao09/assets/imgs/imagens_esportesradicais/foto1.jpg);
+}
+
+.nav {
+  width: 300px;
+  height: 200px;
+  margin: 20px 0 0 20px;
+  background: #663333d2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #FFFFCC;
+  line-height: 40px;
+  text-align: center;
+}
+
+a {
+  color: #FFFFCC;
+}
+
+#nav-border {
+  border: 0.5px solid #FFFFCC;
+  width: 80%;
+  margin: 9px auto;
+}
+
+.nav-icons {
+  margin: 0 12px;
+  display: inline;
+}
+
+
+
+#home {
+  width: 1000px;
+  height: 595px;
+  margin: 40px auto 200px auto;
+  background: #ffcc66;
+  opacity: 80%;
+  display: flex;
+}
+
+.topico-titulo {
+  font-size: 18px;
+  margin: 10px;
+  color: #333333;
+}
+
+.p-topico {
+  font-size: 14px;
+    margin: 10px;
+    color: #333333;
+}
+
+.topico1 {
+  font-family: Arial;
+  font-size: 14px;
+  color: #333333;
+  width: 310px;
+  height: 410px;
+  background: #FFFFCC;
+  opacity: 70%;
+  margin: 10px auto;
+  border: 2px solid red;
+}
+
+.topico2 {
+  font-family: Arial;
+  font-size: 14px;
+  color: #333333;
+  width: 310px;
+  height: 305px;
+  background: #FFFFCC;
+  opacity: 70%;
+  margin: 10px auto;
+  border: 2px solid red;
+}
+
+.topico3 {
+  font-family: Arial;
+  font-size: 14px;
+  color: #333333;
+  width: 310px;
+  height: 475px;
+  background: #FFFFCC;
+  opacity: 70%;
+  margin: 10px auto;
+  border: 2px solid red;
+}
