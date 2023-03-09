@@ -1,0 +1,194 @@
+* {
+    margin: none;
+    padding: none;
+    border: none;
+}
+
+header img {
+    width: 100%;
+    height: 400px;
+}
+
+header h1 {
+    position: absolute;
+    justify-content: center;
+    color: white;
+    font-weight: 100;
+    margin: 120px 550px;
+}
+
+header span {
+    position: absolute;
+    justify-content: center;
+    color: white;
+    font-weight: 100;
+    margin: 150px 550px;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#main {
+    width: 850px;
+    margin: 0 auto;
+    background: #cccccc;
+    /* width: 1600px;
+    height: 1365px; */
+    width: 1000px;
+    height: 100%;
+}
+
+#main_section {
+    margin: 0 auto;
+    position: relative;
+    top: -40px;
+}
+
+#main_section_2 {
+    border: 2px solid red;
+    display: inline-block;
+}
+
+.figure-img {
+    height: 280px;
+    display: flex;
+
+}
+
+.magica {
+    flex-flow: column;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.imgs_magica {
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.imgs_magica_fig {
+    flex-direction: row;
+    width: 245px;
+    text-align: center;
+    padding: 1%;
+}
+
+nav {
+    background-color: rgb(75, 15, 116);
+    width: 1000px;
+    height: 90px;
+    margin: auto;
+}
+
+nav ul li {
+    float: left;
+}
+
+.cart {
+    margin: 0 10px 0 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    line-height: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+li a:hover {
+    color: orange;
+}
+
+nav ul {
+    margin: auto;
+    width: 750px;
+    height: 50px;
+    list-style: none;
+}
+
+#linha {
+    border: 2px dashed #FFF;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.text-div {
+    justify-content: left;
+    padding: 10px;
+    font-size: 14px;
+    background: rgb(77, 5, 95);
+    color: #FFF;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.text-div h1 {
+    color: yellow;
+    font-size: 22px;
+}
+
+#agenda {
+    margin-top: 20px;
+    width: 1000px;
+    height: 290px;
+    text-align: left;
+    display: flex;
+
+}
+
+#agenda p {
+    margin-right: 15px;
+    margin-top: 15px;
+    line-height: 15px;
+    width: 90%;
+    word-wrap: break-word;
+}
+
+#agenda a .icon {
+    position: absolute;
+}
+
+.div-icon {
+    display: flex;
+    margin-left: 218px;
+    margin-top: -30px;
+}
+
+#texto-evento {
+    text-align: center;
+}
+
+.eventos {
+    position: relative;
+}
+
+.eventos-img {
+    text-align: center;
+}
+
+.eventos-img div img {
+    position: absolute;
+    left: 20px;
+}
+
+.eventos-img div h2 {
+    position: absolute;
+    left: 30px;
+    color: yellow;
+    z-index: 2;
+    font-size: 30px;
+    line-height: 100px;
+}
+
+.text-abs {
+    position: absolute;
+    left: 45px;
+    color: yellow;
+    z-index: 2;
+    font-size: 30px;
+    
+}
