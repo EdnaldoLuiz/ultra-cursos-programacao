@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+a,
+p {
+  color: black;
+  font-family: Arial;
+  font-weight: 600;
+}
+
+.header {
+  margin: 5px;
+  display: flex;
+  width: min-content;
+  border: 2px solid red;
+}
+
+.menu {
+  margin-right: 5px;
+  width: 170px;
+  padding: 20px 0;
+  text-align: center;
+  line-height: 40px;
+  background: linear-gradient(to bottom, #CC6600, #FFCC33);
+}
+
+#nav-img img {
+  border-radius: 40px 0 40px 0;
+  height: 250px;
+  width: 100%;
+}
+
+#nav-img {
+  width: 620px;
+  height: 250px;
+}
+
+.informativo {
+  margin: 5px;
+  padding: 5px;
+  width: 785px;
+  background: #CC6600;
+}
+
+.informativo p {
+  margin-left: 15px;
+}
+
+.home {
+  border: 2px solid red;
+  width: 800px;
+}
+
+.home-content {
+  margin-top: 5px;
+  display: flex;
+}
+
+.div-legenda {
+  padding-top: 17px;
+  margin-right: 25px;
+}
+
+.legenda {
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  background: rgb(51, 48, 48);
+  color: #fbff08;
+  font-size: 20px;
+}
+
+.data {
+  padding: 20px;
+  border: 5px solid rgb(51, 48, 48);
+  border-radius: 20px;
+  width: 60px;
+}
+
+.imgs {
+  margin-top: 10px;
+  display: flex;
+}
+
+.imgs div img {
+  margin-right: 10px;
+  height: 80px;
+  width: 230px;
+  border: 5px solid rgb(51, 48, 48);
+  border-radius: 20px;
+}
