@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#links {
+  width: 900px;
+  background: linear-gradient(to left, rgb(0, 255, 76), rgb(15, 201, 71), rgb(2, 99, 2));
+}
+
+.lista_links {
+  display: inline-block;
+  padding: 20px;
+  color: white;
+}
+
+.lista_links:hover {
+  transition: 1s ease-in-out;
+  color: black;
+}
+
+#area_numeros {
+  width: 900px;
+}
+
+.numeros {
+  display: inline-block;
+  font-size: 50px;
+  margin: 10px;
+  padding: 20px 35px;
+  border: 5px solid black;
+  border-radius: 50%;
+}
+
+.numeros:hover {
+  transform: scale(1.1);
+}
+
+#formulario {
+  display: flex;
+}
