@@ -2,41 +2,90 @@
   margin: 0;
   padding: 0;
   list-style: none;
+  text-decoration: none;
+  color: black;
 }
 
 #links {
-  width: 900px;
-  background: linear-gradient(to left, rgb(0, 255, 76), rgb(15, 201, 71), rgb(2, 99, 2));
+  width: 800px;
+  background: linear-gradient(to left, rgb(0, 255, 0), rgb(11, 172, 11), rgb(6, 112, 6));
 }
 
-.lista_links {
+.link {
+  color: white;
   display: inline-block;
   padding: 20px;
-  color: white;
 }
 
-.lista_links:hover {
+.link:hover {
   transition: 1s ease-in-out;
   color: black;
 }
 
 #area_numeros {
-  width: 900px;
+  width: 800px;
+  margin-left: 130px;
 }
 
 .numeros {
+  margin: 20px;
+  font-size: 30px;
   display: inline-block;
-  font-size: 50px;
-  margin: 10px;
-  padding: 20px 35px;
-  border: 5px solid black;
+  padding: 20px 30px;
+  border: 4px solid black;
   border-radius: 50%;
 }
 
 .numeros:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
-#formulario {
+form {
+  margin-left: 200px;
   display: flex;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+  flex-flow: column;
+  width: 300px;
+}
+
+input,
+textarea {
+  margin-bottom: 5px;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+
+textarea:hover {
+  background: rgb(221, 216, 216);
+  border: 2px solid green;
+}
+
+#nome:hover {
+  background: rgb(221, 216, 216);
+  border: 2px solid green;
+}
+
+#email:hover {
+  background: rgb(221, 216, 216);
+  border: 2px solid green;
+}
+
+#menu {
+  margin: 50px 220px;
+}
+
+.menu_links {
+  padding: 10px 5px;
+  display: inline-block;
+  width: 300px;
+  background: rgb(23, 0, 128);
+  color: gold;
+  border-bottom: 2px solid white;
+}
+
+.menu_links:hover {
+  background: rgb(182, 182, 10);
+  color: rgb(23, 0, 128);
 }

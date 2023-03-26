@@ -10,15 +10,19 @@
 
 <body>
     <h1>Cadastro de associados</h1>
-    <form action="">
+    <form>
         <table>
             <tr>
                 <td><strong>Nome:</strong></td>
                 <td><input size="40" type="text"></td>
                 <td>
                     <strong>Sexo:</strong>
-                    <input type="radio" name="sexo" value="f">Feminino
-                    <input type="radio" name="sexo" value="m">Masculino
+
+                    <input type="radio" name="sexo"id="f">
+                    <label for="f">Feminino</label>
+
+                    <input type="radio" name="sexo" id="m">
+                    <label for="m">Masculino</label>
                 </td>
             </tr>
             <tr>
@@ -43,6 +47,7 @@
             <tr>
             </tr>
         </table>
+        
         <table>
             <tr>
                 <textarea name="Comment" id="" cols="60" rows="6"></textarea>
@@ -54,4 +59,5 @@
         </table>
     </form>
 </body>
+
 </html>
